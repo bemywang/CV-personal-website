@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    color: #7D6E83;
+    text-align: center;
+    /* margin: change four sides  */
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+}
+
+.top-container {
+    background-color: #F5EFE6;
+    position: relative;
+    padding-top: 50px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #DBC8AC;
+    padding: 50px 0px 5px 0px;
+}
+
+.intro {
+    width: 40%;
+    margin: 20px auto;
+}
+
+.skills {
+    padding: 10px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.sun {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 400px;
+    padding-top: 200px;
+}
+
+.cloud {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 400px;
+    padding-top: 50px;
+}
+
+.taipei {
+    width: 300px;
+    height: 400px;
+}
+
+.profile-pic {
+    border-radius: 100%;
+    margin: 20px;
+    width: 25%;
+}
+
+.code {
+    width: 25%;
+    /* 25% of its parent */
+    float: left;
+    margin-right: 30px;
+}
+
+.chicken {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+h1 {
+    color: #182747;
+    font-size: 5.62rem;
+    /* font-size 100% = 16px; 562% = 90px */
+    /* you can use "em" instead. 16px = 100% = 1em */
+    /* em and % are dynamic font size */
+    margin: 0 auto;
+    font-family: 'Sacramento', cursive;
+    Line Height: 1.5;
+
+}
+
+h2 {
+    color: #182747;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #B4CDE6 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 50px auto;
+}
+
+.footer-link {
+    color: #11999E;
+    margin: auto 30px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #FDFF00;
+}
+
+.contact-me {
+    margin-bottom: 10px;
+}
+
+.contact-msg {
+    width: 50%;
+    margin: 40px auto;
+}
+
+.copyright {
+   font-size: 0.75rem;
+}
+
+/* edit your button style and copy and paste it here */
+/* https://css3buttongenerator.com/ */
+
+.btn {
+  background: #97D2EC;
+  background-image: -webkit-linear-gradient(top, #97D2EC, #5F6F94);
+  background-image: -moz-linear-gradient(top, #97D2EC, #5F6F94);
+  background-image: -ms-linear-gradient(top, #97D2EC, #5F6F94);
+  background-image: -o-linear-gradient(top, #97D2EC, #5F6F94);
+  background-image: linear-gradient(to bottom, #97D2EC, #5F6F94);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #D75281;
+  background-image: -webkit-linear-gradient(top, #D75281, #EED180);
+  background-image: -moz-linear-gradient(top, #D75281, #EED180);
+  background-image: -ms-linear-gradient(top, #D75281, #EED180);
+  background-image: -o-linear-gradient(top, #D75281, #EED180);
+  background-image: linear-gradient(to bottom, #D75281, #EED180);
+  text-decoration: none;
+}
+
